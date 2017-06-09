@@ -6,38 +6,61 @@
 }
 @media only screen and (min-width: 768px) {
   .content-menu {
-    width: 25%;
+    width: 30%;
     float: left;
+    margin: 0px;
+    max-width: 527.597px;
   }
   .content-main {
-    width: 75%;
+    width: 60%;
     float: left;
+    max-width: 1085.59px;
   }
+  #app-permissions-screenshot {
+    height: 40em;
+    width: 22.5em;
+    margin-left: 2%;
+  }
+  #notification-image {
+    width: 15em;
+    margin-left: 2%;
+  }
+}
+#app-permissions-screenshot {
+  max-width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+#notification-image {
+  max-width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 .content-menu {
   background-color: rgb(230,230,230);
-  padding: 5px;
+  padding: 10px;
   font-size: 1.05em;
+}
+.content-menu ul {
+  padding-left: 20px;
+  color: black;
+}
+.content-menu a:visited {
+  color: blue;
 }
 .content-main {
   padding: 5px;
   font-size: 1.05em;
 }
-.content-main a:visited {
-  color: blue;
+.content-main ol {
+  font-size: 1.15em;
+  padding-left: 60px;
+}
+.content-main ul {
+  font-size: 1.15em;
+  padding-left: 60px;
 }
 body {font-family: ubuntu;}
-/*#contents {
-  background-color: rgb(230,230,230);
-  padding: 5px;
-  max-width: 470px;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 1.05em;
-}
-#contents a:visited {
-  color: blue;
-}*/
 #header {
   position: fixed;
   width: 100%;
@@ -51,6 +74,9 @@ body {font-family: ubuntu;}
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+.full-width {
+  max-width: 1826px;
+}
 p {
   margin-left: 2%;
   font-size: 1.15em;
@@ -59,31 +85,23 @@ p {
   font-family: ubuntu;
   src: "./meta/fonts/ubuntu-regular.ttf";
 }
-h1 {font-size: 1.65em;}
-h2 {font-size: 1.5em;}
+h1 {
+  font-size: 1.65em;
+}
+h2 {
+  font-size: 1.5em;
+}
 h3 {
   font-size: 1.25em;
   margin-left: 20px;
-}
-#content ul {
-  padding-left: 20px;
-  color: black;
-}
-#longform ul {
-  font-size: 1.15em;
-  padding-left: 60px;
-}
-#longform ol {
-  font-size: 1.15em;
-  padding-left: 60px;
 }
 footer p{
   font-size: 0.75em;
   margin-left: 0%;
 }
-i {font-style: italic;}
-#app-permissions-screenshot {
-  height: 40em;
-  width: 22.5em;
-  margin-left: 2%;
+i {
+  font-style: italic;
+}
+#footer {
+  font-size: 0.75em;
 }
