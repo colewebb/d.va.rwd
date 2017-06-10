@@ -61,7 +61,7 @@
   padding-left: 60px;
 }
 body {font-family: ubuntu;}
-#header {
+/*#header {
   position: fixed;
   width: 100%;
   background-color: black;
@@ -73,7 +73,7 @@ body {font-family: ubuntu;}
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.5em;
-}
+}*/
 .full-width {
   max-width: 1826px;
 }
@@ -104,4 +104,13 @@ i {
 }
 #footer {
   font-size: 0.75em;
+}
+#top-button a {
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  padding: 5px;
+  left: 0px;
+  text-decoration: none;
+  color: white;
 }
